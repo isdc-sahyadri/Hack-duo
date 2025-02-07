@@ -1,6 +1,6 @@
 <img src="ISDC Hackathon.png" />
 
-# {Team Name}
+# Hack duo
 
 Welcome to the **ISDC Hackathon!** 🚀
 
