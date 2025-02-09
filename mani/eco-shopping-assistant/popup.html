@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Shopping Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <h2>🌱 Eco-Friendly Shopping Assistant</h2>
+        
+        <!-- Product Details -->
+        <div class="product-info">
+            <p><strong>Product:</strong> <span id="product-name">Loading...</span></p>
+            <p><strong>Price:</strong> <span id="product-price">Loading...</span></p>
+        </div>
+
+        <!-- Sustainability Score -->
+        <div class="sustainability-section">
+            <h3>Sustainability Analysis</h3>
+            <div class="score-container">
+                <div id="sustainability-score" class="score-circle">
+                    <span class="score-value">--</span>
+                </div>
+                <div class="score-details">
+                    <div class="score-breakdown">
+                        <div>Materials: <span id="materials-score">--</span></div>
+                        <div>Energy: <span id="energy-score">--</span></div>
+                        <div>Ethics: <span id="ethics-score">--</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Eco Badges -->
+        <div class="eco-badges-section">
+            <h3>Eco Certifications</h3>
+            <div id="eco-badges" class="badges-container">
+                <!-- Badges will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Carbon Footprint -->
+        <div class="carbon-footprint-section">
+            <h3>🌍 Carbon Footprint</h3>
+            <div id="carbon-footprint">Calculating...</div>
+        </div>
+
+        <!-- Alternative Suggestions -->
+        <div class="alternatives-section">
+            <h3>♻️ Eco-Friendly Alternatives</h3>
+            <div id="alternative-list" class="alternatives-container">
+                <!-- Alternatives will be inserted here -->
+            </div>
+        </div>
+
+        <!-- Community Feedback -->
+        <div class="community-section">
+            <h3>👥 Community Reviews</h3>
+            <div id="community-reviews" class="reviews-container">
+                <!-- Reviews will be inserted here -->
+            </div>
+            <button id="add-review" class="btn-primary">Add Review</button>
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="hidden">
+            <div class="spinner"></div>
+            <p>Analyzing product sustainability...</p>
+        </div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
